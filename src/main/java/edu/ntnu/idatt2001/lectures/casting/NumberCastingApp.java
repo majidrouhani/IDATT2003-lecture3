@@ -4,7 +4,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class NumberCastingApp {
-  private static final Logger LOGGER = Logger.getLogger(NumberCastingApp.class.getName());
+  private static final Logger logger = Logger.getLogger(NumberCastingApp.class.getName());
 
   public static void main(String[] args) {
 
@@ -15,6 +15,6 @@ public class NumberCastingApp {
 
     String msg = String.format("%d/%d = %.2f", a, b, c);
 
-    LOGGER.log(Level.INFO, "{0}", msg);
+    logger.log(Level.INFO, "{0}", msg);
   }
 }
