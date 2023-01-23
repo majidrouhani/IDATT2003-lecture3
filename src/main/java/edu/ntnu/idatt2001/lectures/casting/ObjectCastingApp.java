@@ -17,7 +17,7 @@ public class ObjectCastingApp {
     
     Person person = new Person("Han Henrik");    
     Employee employee = new Employee("Olan Normann", 550000);
-    Manager manager = new Manager("Olan Normann", 550000, "Adinistrerende Direkt�r");
+    Manager manager = new Manager("Olan Normann", 550000, "Adinistrerende Direktør");
     Patient patient = new Patient("Hans Hansen", "Anette Olsen");
 
 
