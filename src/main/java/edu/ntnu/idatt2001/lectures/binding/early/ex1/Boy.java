@@ -1,4 +1,4 @@
-package edu.ntnu.idatt2001.lectures.binding.early;
+package edu.ntnu.idatt2001.lectures.binding.early.ex1;
 
 import java.util.logging.Logger;
 
