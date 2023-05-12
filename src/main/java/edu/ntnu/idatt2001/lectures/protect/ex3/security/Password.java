@@ -1,5 +1,9 @@
 package edu.ntnu.idatt2001.lectures.protect.ex3.security;
 
+/**
+ * This class is used to demonstrate the use of protected access modifier.
+ * 
+ */
 public class Password {
 
     protected Password() {

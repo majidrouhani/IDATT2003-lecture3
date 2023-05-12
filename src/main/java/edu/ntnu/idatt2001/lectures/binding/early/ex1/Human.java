@@ -1,12 +1,21 @@
 package edu.ntnu.idatt2001.lectures.binding.early.ex1;
 
-import java.util.logging.Logger;
-
+/*
+ * 
+ * A class representing a human.
+ */
 class Human {
+
+	/**
+	 * Constructs a human.
+	 */
 	protected Human() {
 	}
 
-	public static void walk(Logger log) {
-		log.info("Human walks");
+	/**
+	 * Makes the human walk.
+	 */
+	public static void walk() {
+		System.out.println("Human walks");
 	}
 }

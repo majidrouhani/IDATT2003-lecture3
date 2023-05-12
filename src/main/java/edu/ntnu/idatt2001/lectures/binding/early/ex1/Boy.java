@@ -1,9 +1,14 @@
 package edu.ntnu.idatt2001.lectures.binding.early.ex1;
 
-import java.util.logging.Logger;
-
+/*
+ * A class representing a boy.
+ */
 class Boy extends Human {
-	public static void walk(Logger log) {
-		log.info("Boy walks");
+
+	/** 
+	 * Makes the boy walk
+	 */
+	public static void walk() {
+		System.out.println("Boy walks");
 	}
 }

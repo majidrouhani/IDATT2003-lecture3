@@ -1,11 +1,15 @@
 package edu.ntnu.idatt2001.lectures.casting;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
+/*
+ * This class demonstrates casting of numbers
+ */
 public class NumberCastingApp {
-  private static final Logger logger = Logger.getLogger(NumberCastingApp.class.getName());
 
+  /**
+   * The main method
+   *
+   * @param args The arguments
+   */
   public static void main(String[] args) {
 
     int a = 2;
@@ -13,8 +17,6 @@ public class NumberCastingApp {
 
     double c = (double) a / b;
 
-    String msg = String.format("%d/%d = %.2f", a, b, c);
-
-    logger.log(Level.INFO, "{0}", msg);
+    System.out.printf("%d/%d = %.2f", a, b, c);
   }
 }

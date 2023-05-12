@@ -1,13 +1,13 @@
 package edu.ntnu.idatt2001.lectures.binding.early.ex1;
 
-import java.util.logging.Logger;
+
+/**
+ * A class representing an application.
+ */
 
 public class App {
-
-	private static final Logger logger = Logger.getLogger(App.class.getName());
-
 	public static void main(String args[]) {
-		Boy.walk(logger);
-		Human.walk(logger);
+		Boy.walk();
+		Human.walk();
 	}
 }

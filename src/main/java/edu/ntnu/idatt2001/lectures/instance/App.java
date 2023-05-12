@@ -1,23 +1,28 @@
 package edu.ntnu.idatt2001.lectures.instance;
 
 import java.util.ArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import java.util.List;
 
 import edu.ntnu.idatt2001.lectures.simple.Person;
 
+/**
+ * A class representing an application.
+ */
 public class App {
 
-	private static final Logger logger = Logger.getLogger(App.class.getName());
-
+	/**
+	 * The main method of the application.
+	 * @param args the command line arguments
+	 */
 	public static void main(String[] args) {
 
-		ArrayList<Person> persons = new ArrayList<Person>();
+		// Create a list of persons
+		List<Person> persons = new ArrayList<>();
 
 		persons.add(new Student("Hans Hansen", 123456));
 		persons.add(new Teacher("Ola Normann"));
 
-		logger.log(Level.INFO, "{0}", persons);
+		System.out.printf("%s", persons);
 
 
 		for (Person person : persons) {
@@ -28,6 +33,6 @@ public class App {
 			}
 		}
 
-		logger.log(Level.INFO, "{0}", persons);
+		System.out.printf("%s", persons);
 	}
 }
